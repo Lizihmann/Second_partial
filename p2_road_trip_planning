@@ -1,0 +1,19 @@
+https://replit.com/join/bgzfwbwjqa-liz-sophiesophi
+
+"""
+Ask the user to input the distance in miles and the car's miles per gallon (MPG).
+Then, inquire about the current price of gasoline per gallon and how many days they
+plan to travel. Calculate the total cost of the trip, considering changing gasoline
+prices during the journey
+"""
+
+distance = int(input("Enter the distance in miles: "))
+MPG = int(input("Enter the cars miles per gallon (MPG): "))
+current_price = int(input("Enter the current price of gasoline per gallon: "))
+days = int(input("Enter how may days you plan to travel: "))
+
+total_cost = []
+
+total_cost = (int(distance)*(int(MPG)*int(current_price)))*int(days)
+
+print("your total cost will be", total_cost)
