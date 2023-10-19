@@ -44,5 +44,4 @@ elif humidity >=20<22:
 elif humidity >=22 and day == "monday" or "wednesday" or "friday" or "sunday":
   print("It is not necessary to water Ruby.")
   
-print("Thank you for taking care of Ruby!")
-
+print("Thank you for taking care of Ruby! Now she will flourish and remain healthy!")
