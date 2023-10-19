@@ -1,0 +1,48 @@
+https://replit.com/join/pzkhmasato-liz-sophiesophi
+
+"""
+create a program to take care of ruby the plant. 
+care conditions:
+1. ask for the temperature in celsius
+2. humidity in percentage in the air around ruby
+3. also for the day of the week
+
+temperature: 
+if the temperature is between 20 and 25 degrees celsius: she is okay!
+if it's below 20: bring inside the house
+if above 25: bring inside the house with a fan on!
+
+watering: 
+she should e watered on Tuesdays, Thursdays and Saturdays. display the message 'water ruby!'
+
+humidity percentage: 
+less than 20, water it! display the message 'You should water ruby'
+if its greater than or equal to 20 and less than 22, display 'suitable humidity'
+if it's more than 22 and it's Monday, Wednesday, Friday, or Sunday, display 'It is not necessary to water Ruby'
+"""
+
+print("Take care of Ruby!")
+
+temperature = int(input("Guve me the temperature in degrees Celsius: "))
+humidity = int(input("Give me the percentage of humidity around Ruby: "))
+day = input("what day of the week are we in?: ")
+
+if temperature <=20: 
+  print("Oh no! Bring it inside the house!")
+elif temperature == 20 < temperature < 25: 
+  print("Good conditions!")
+elif temperature >=25: 
+  print("Bring it inside the house and turn on the fan!")
+
+if day == "thursday" or "tuseday" or "saturday": 
+  print("Water Ruby!")
+
+if humidity <=20: 
+  print("You should water Ruby!")
+elif humidity >=20<22:
+  print("Suitable humidity")
+elif humidity >=22 and day == "monday" or "wednesday" or "friday" or "sunday":
+  print("It is not necessary to water Ruby.")
+  
+print("Thank you for taking care of Ruby!")
+
