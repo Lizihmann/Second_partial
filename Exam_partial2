@@ -23,7 +23,7 @@ if it's more than 22 and it's Monday, Wednesday, Friday, or Sunday, display 'It 
 
 print("Take care of Ruby!")
 
-temperature = int(input("Guve me the temperature in degrees Celsius: "))
+temperature = int(input("Give me the temperature in degrees Celsius: "))
 humidity = int(input("Give me the percentage of humidity around Ruby: "))
 day = input("what day of the week are we in?: ")
 
